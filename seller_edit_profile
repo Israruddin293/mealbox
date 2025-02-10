@@ -1,0 +1,120 @@
+<?php include('server2.php') ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/index.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+<style>
+body {
+    background: rgb(99, 39, 120)
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: #682773
+}
+
+.profile-button:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #682773;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 11px
+}
+
+.add-experience:hover {
+    background: #BA68C8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
+</style>
+</head>
+<body>
+<div class="container rounded bg-white mt-5 mb-5">
+    <div class="row">
+        <div class="col-md-3 border-right">
+            <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img class="rounded-circle mt-5" width="150px" src="./images/user_profile.png"><span class="font-weight-bold"><?php echo $_SESSION['username']; ?></span><span class="text-black-50">edogaru@mail.com.my</span><span> </span></div>
+        </div>
+        <div class="col-md-5 border-right">
+            <div class="p-3 py-5">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4 class="text-right">Profile Settings</h4>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-6"><label class="labels">Name</label>
+                    <label class="labels">Name</label><input type="text" class="form-control" placeholder="Enter Username" value=""></div>
+                    <div class="col-md-6"><label class="labels">Seller Name</label>
+                    <input type="text" class="form-control" value="" placeholder="Enter Seller Name"></div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-12"><label class="labels">Mobile Number</label><input type="text" class="form-control" placeholder="enter Phone Number" value=""></div>
+                    <div class="col-md-12"><label class="labels">Email</label>
+                        <input type="email" class="form-control" placeholder="Enter Email" value=""></div>
+                    <div class="col-md-12"><label class="labels">Address</label>
+                        <input type="text" class="form-control" placeholder="Enter Address" value=""></div>        
+                </div>
+                <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button" onclick="">Save Profile</button></div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+<?php
+  if (isset($_POST['submit'])) {
+  // receive all input values from the form
+  $username = mysqli_real_escape_string($db, $_POST['username']);
+  $seller_name = mysqli_real_escape_string($db, $_POST['seller_name']);
+  $phone = mysqli_real_escape_string($db, $_POST['phone']);
+  $email = mysqli_real_escape_string($db, $_POST['email']);
+  $address = mysqli_real_escape_string($db, $_POST['address']);
+}
+$query = "INSERT INTO seller (username, seller_name, phone, email, address) 
+          VALUES('$username', '$seller_name', '$phone', '$email', '$address')";
+    mysqli_query($db, $query);
+    $_SESSION['username'] = $username;
+    $_SESSION['seller_name'] = $seller_name;
+    $_SESSION['phone'] = $phone;
+      $_SESSION['email'] = $email;
+      $_SESSION['address'] = $address;
+?>
+
+<script>
+    function myfunc() {
+      window.location.href ="seller_profile.php";
+    }
+</script>

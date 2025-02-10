@@ -1,0 +1,225 @@
+body{
+margin:0;
+border-style: solid;
+border-width: 10px 0px 10px 0px;
+border-color: #033E3E;
+}
+.header{
+width:100%;
+height:150px;
+background-color: orange;
+}
+h1{
+color:black;
+margin:0;
+padding-top:50px;
+font-size:3em;
+font-family:Broadway;
+float:left;
+}
+.search_icon{
+float:right;
+margin-top:55px;
+margin-right:50px;
+}
+.search_box{
+border: 0px;
+padding: 8px;
+width: 200px;
+font-size: 16px;
+margin-right: 6px;
+margin-left: 15px;
+}
+.search{
+background-color:#033E3E;
+padding:8px;
+width:80px;
+border:none;
+border-radius: 10px;
+font-size:16px;
+color:white;
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #000000;
+  font-family: Arial;
+  padding-left: 80px;
+  
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+.navbar .tab{
+  margin-left: 130px;
+  margin-right: 0px;
+}
+
+.navbar .dropdown {
+  margin-left: 150px;
+  margin-right: 10px;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #1ea1a1;
+  color: black;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.section{
+  width: 100%;
+}
+.section:after{
+  
+  content: "";
+  display: table;
+  clear: both; 
+  
+}
+
+.upper{
+  float:  left;
+  width: 33.33%;
+margin-bottom: 50px;
+
+}
+  
+.card {
+  height: auto;
+  width: 190px;
+  margin-top: 90px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  margin-left: 120px;
+  text-align: center;
+  font-family: arial;
+  transition: transform .2s;
+}
+
+.card img{
+  
+  max-width:90%;
+}
+
+h2{
+  margin: 0px;
+  padding: 0px;
+  font-size: 18px;
+}
+
+.price {
+  color: black;
+  font-size: 16px;
+  margin: 5px 0 0 0;
+}
+
+.card .product{
+  height: 270px;
+}
+
+.card .product:hover{
+  transform: scale(1.1);
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 8px;
+  color: white;
+  background-color: darkblue;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 14px;
+  
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.card:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 255, 0.3);
+
+}
+
+.footer {
+  background-color: orange;
+  height: 64px;
+  width: 100%;
+}
+
+.card ul{
+  height: 110px;
+}
+
+.card ul li{
+  text-align: left;
+  font-size: 13px;
+  margin: 0;
+  padding: 0; 
+}
+
+.search_icon img{
+  border: 1px solid black;
+  background-color: lightgrey;
+  border-radius: 6px;
+}

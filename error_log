@@ -1,0 +1,93 @@
+[21-Jan-2022 14:07:41 America/New_York] PHP Notice:  Undefined index: seller_name in /home/mycajpph/public_html/fainal/seller_users.php on line 9
+[21-Jan-2022 14:07:41 America/New_York] PHP Notice:  Undefined index: username in /home/mycajpph/public_html/fainal/seller_users.php on line 10
+[21-Jan-2022 14:07:41 America/New_York] PHP Notice:  Undefined variable: unique_id in /home/mycajpph/public_html/fainal/seller_users.php on line 29
+[21-Jan-2022 14:07:41 America/New_York] PHP Notice:  Undefined index: seller_name in /home/mycajpph/public_html/fainal/seller_users.php on line 39
+[21-Jan-2022 14:07:41 America/New_York] PHP Notice:  Undefined variable: row in /home/mycajpph/public_html/fainal/seller_users.php on line 40
+[21-Jan-2022 14:07:41 America/New_York] PHP Notice:  Undefined variable: row in /home/mycajpph/public_html/fainal/seller_users.php on line 47
+[21-Jan-2022 14:13:52 America/New_York] PHP Notice:  Undefined index: name in /home/mycajpph/public_html/fainal/buyer_dessert.php on line 322
+[21-Jan-2022 14:13:52 America/New_York] PHP Notice:  Undefined index: name in /home/mycajpph/public_html/fainal/buyer_dessert.php on line 323
+[21-Jan-2022 14:13:52 America/New_York] PHP Notice:  Undefined index: name in /home/mycajpph/public_html/fainal/buyer_dessert.php on line 329
+[21-Jan-2022 14:14:53 America/New_York] PHP Notice:  Undefined index: name in /home/mycajpph/public_html/fainal/buyer_dessert.php on line 322
+[21-Jan-2022 14:14:53 America/New_York] PHP Notice:  Undefined index: name in /home/mycajpph/public_html/fainal/buyer_dessert.php on line 323
+[21-Jan-2022 14:14:53 America/New_York] PHP Notice:  Undefined index: name in /home/mycajpph/public_html/fainal/buyer_dessert.php on line 329
+[21-Jan-2022 14:16:23 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mycajpph/public_html/fainal/seller_logged-in.php:220) in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 233
+[21-Jan-2022 14:16:23 America/New_York] PHP Notice:  Undefined index: id in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 236
+[21-Jan-2022 14:16:31 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mycajpph/public_html/fainal/seller_logged-in.php:220) in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 233
+[21-Jan-2022 14:16:31 America/New_York] PHP Notice:  Undefined index: id in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 236
+[21-Jan-2022 14:16:32 America/New_York] PHP Notice:  Undefined index: name in /home/mycajpph/public_html/fainal/buyer_dessert.php on line 322
+[21-Jan-2022 14:16:32 America/New_York] PHP Notice:  Undefined index: name in /home/mycajpph/public_html/fainal/buyer_dessert.php on line 323
+[21-Jan-2022 14:16:32 America/New_York] PHP Notice:  Undefined index: name in /home/mycajpph/public_html/fainal/buyer_dessert.php on line 329
+[21-Jan-2022 14:16:35 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mycajpph/public_html/fainal/seller_logged-in.php:220) in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 233
+[21-Jan-2022 14:16:35 America/New_York] PHP Notice:  Undefined index: id in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 236
+[21-Jan-2022 14:16:40 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mycajpph/public_html/fainal/seller_logged-in.php:220) in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 233
+[21-Jan-2022 14:16:40 America/New_York] PHP Notice:  Undefined index: id in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 236
+[21-Jan-2022 14:16:44 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mycajpph/public_html/fainal/seller_logged-in.php:220) in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 233
+[21-Jan-2022 14:16:44 America/New_York] PHP Notice:  Undefined index: id in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 236
+[21-Jan-2022 14:16:49 America/New_York] PHP Notice:  Undefined index: name in /home/mycajpph/public_html/fainal/buyer_appetizer2.php on line 329
+[21-Jan-2022 14:16:49 America/New_York] PHP Notice:  Undefined index: name in /home/mycajpph/public_html/fainal/buyer_appetizer2.php on line 330
+[21-Jan-2022 14:16:49 America/New_York] PHP Notice:  Undefined index: name in /home/mycajpph/public_html/fainal/buyer_appetizer2.php on line 336
+[21-Jan-2022 14:16:55 America/New_York] PHP Notice:  Undefined index: name in /home/mycajpph/public_html/fainal/buyer_snacks.php on line 347
+[21-Jan-2022 14:16:55 America/New_York] PHP Notice:  Undefined index: name in /home/mycajpph/public_html/fainal/buyer_snacks.php on line 348
+[21-Jan-2022 14:16:55 America/New_York] PHP Notice:  Undefined index: name in /home/mycajpph/public_html/fainal/buyer_snacks.php on line 354
+[21-Jan-2022 14:16:55 America/New_York] PHP Notice:  Undefined index: name in /home/mycajpph/public_html/fainal/buyer_snacks.php on line 441
+[21-Jan-2022 14:16:55 America/New_York] PHP Notice:  Undefined index: name in /home/mycajpph/public_html/fainal/buyer_snacks.php on line 442
+[21-Jan-2022 14:16:55 America/New_York] PHP Notice:  Undefined index: name in /home/mycajpph/public_html/fainal/buyer_snacks.php on line 448
+[21-Jan-2022 14:17:11 America/New_York] PHP Notice:  Undefined index: name in /home/mycajpph/public_html/fainal/buyer_snacks.php on line 347
+[21-Jan-2022 14:17:11 America/New_York] PHP Notice:  Undefined index: name in /home/mycajpph/public_html/fainal/buyer_snacks.php on line 348
+[21-Jan-2022 14:17:11 America/New_York] PHP Notice:  Undefined index: name in /home/mycajpph/public_html/fainal/buyer_snacks.php on line 354
+[21-Jan-2022 14:17:11 America/New_York] PHP Notice:  Undefined index: name in /home/mycajpph/public_html/fainal/buyer_snacks.php on line 441
+[21-Jan-2022 14:17:11 America/New_York] PHP Notice:  Undefined index: name in /home/mycajpph/public_html/fainal/buyer_snacks.php on line 442
+[21-Jan-2022 14:17:11 America/New_York] PHP Notice:  Undefined index: name in /home/mycajpph/public_html/fainal/buyer_snacks.php on line 448
+[21-Jan-2022 14:17:59 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mycajpph/public_html/fainal/seller_logged-in.php:220) in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 233
+[21-Jan-2022 14:17:59 America/New_York] PHP Notice:  Undefined index: id in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 236
+[21-Jan-2022 14:18:04 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mycajpph/public_html/fainal/seller_logged-in.php:220) in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 233
+[21-Jan-2022 14:18:04 America/New_York] PHP Notice:  Undefined index: id in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 236
+[21-Jan-2022 14:18:42 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mycajpph/public_html/fainal/seller_logged-in.php:220) in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 233
+[21-Jan-2022 14:18:42 America/New_York] PHP Notice:  Undefined index: id in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 236
+[21-Jan-2022 14:19:07 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mycajpph/public_html/fainal/seller_logged-in.php:220) in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 233
+[21-Jan-2022 14:19:07 America/New_York] PHP Notice:  Undefined index: id in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 236
+[21-Jan-2022 14:19:10 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mycajpph/public_html/fainal/seller_logged-in.php:220) in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 233
+[21-Jan-2022 14:19:10 America/New_York] PHP Notice:  Undefined index: id in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 236
+[21-Jan-2022 14:19:13 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mycajpph/public_html/fainal/seller_logged-in.php:220) in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 233
+[21-Jan-2022 14:19:13 America/New_York] PHP Notice:  Undefined index: id in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 236
+[21-Jan-2022 14:19:16 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mycajpph/public_html/fainal/seller_logged-in.php:220) in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 233
+[21-Jan-2022 14:19:16 America/New_York] PHP Notice:  Undefined index: id in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 236
+[21-Jan-2022 14:19:22 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mycajpph/public_html/fainal/seller_logged-in.php:220) in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 233
+[21-Jan-2022 14:19:22 America/New_York] PHP Notice:  Undefined index: id in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 236
+[21-Jan-2022 14:19:48 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mycajpph/public_html/fainal/seller_logged-in.php:220) in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 233
+[21-Jan-2022 14:19:48 America/New_York] PHP Notice:  Undefined index: id in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 236
+[21-Jan-2022 14:19:51 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mycajpph/public_html/fainal/seller_logged-in.php:220) in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 233
+[21-Jan-2022 14:19:51 America/New_York] PHP Notice:  Undefined index: id in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 236
+[21-Jan-2022 14:20:05 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mycajpph/public_html/fainal/seller_logged-in.php:220) in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 233
+[21-Jan-2022 14:20:05 America/New_York] PHP Notice:  Undefined index: id in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 236
+[21-Jan-2022 14:21:29 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mycajpph/public_html/fainal/seller_logged-in.php:220) in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 233
+[21-Jan-2022 14:21:29 America/New_York] PHP Notice:  Undefined index: id in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 236
+[21-Jan-2022 14:21:37 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mycajpph/public_html/fainal/seller_logged-in.php:220) in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 233
+[21-Jan-2022 14:21:37 America/New_York] PHP Notice:  Undefined index: id in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 236
+[21-Jan-2022 14:21:39 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mycajpph/public_html/fainal/seller_logged-in.php:220) in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 233
+[21-Jan-2022 14:21:39 America/New_York] PHP Notice:  Undefined index: id in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 236
+[21-Jan-2022 14:21:40 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mycajpph/public_html/fainal/seller_logged-in.php:220) in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 233
+[21-Jan-2022 14:21:40 America/New_York] PHP Notice:  Undefined index: id in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 236
+[21-Jan-2022 14:22:33 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mycajpph/public_html/fainal/seller_logged-in.php:220) in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 233
+[21-Jan-2022 14:22:33 America/New_York] PHP Notice:  Undefined index: id in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 236
+[21-Jan-2022 14:22:53 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mycajpph/public_html/fainal/seller_logged-in.php:220) in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 233
+[21-Jan-2022 14:22:53 America/New_York] PHP Notice:  Undefined index: id in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 236
+[21-Jan-2022 14:23:12 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mycajpph/public_html/fainal/seller_logged-in.php:220) in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 233
+[21-Jan-2022 14:23:12 America/New_York] PHP Notice:  Undefined index: id in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 236
+[21-Jan-2022 14:23:15 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mycajpph/public_html/fainal/seller_logged-in.php:220) in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 233
+[21-Jan-2022 14:23:15 America/New_York] PHP Notice:  Undefined index: id in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 236
+[21-Jan-2022 15:34:29 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 3
+[21-Jan-2022 15:34:31 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 3
+[21-Jan-2022 15:34:34 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 3
+[21-Jan-2022 15:34:41 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 3
+[21-Jan-2022 15:34:48 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 3
+[21-Jan-2022 15:34:57 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 3
+[21-Jan-2022 15:35:06 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 3
+[21-Jan-2022 15:35:08 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 3
+[21-Jan-2022 15:35:11 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/mycajpph/public_html/fainal/seller_logged-in.php on line 3
+[21-Jan-2022 15:52:36 America/New_York] PHP Notice:  Undefined index: id in /home/mycajpph/public_html/fainal/seller_users.php on line 44
+[21-Jan-2022 15:53:02 America/New_York] PHP Notice:  Undefined index: id in /home/mycajpph/public_html/fainal/seller_users.php on line 44
+[21-Jan-2022 15:53:18 America/New_York] PHP Notice:  Undefined index: id in /home/mycajpph/public_html/fainal/seller_users.php on line 44
+[21-Jan-2022 15:53:27 America/New_York] PHP Notice:  Undefined index: id in /home/mycajpph/public_html/fainal/seller_users.php on line 44
+[21-Jan-2022 15:53:37 America/New_York] PHP Notice:  Undefined index: id in /home/mycajpph/public_html/fainal/seller_users.php on line 44
+[21-Jan-2022 15:55:46 America/New_York] PHP Notice:  Undefined variable: unique_id in /home/mycajpph/public_html/fainal/sellersignup.php on line 62
