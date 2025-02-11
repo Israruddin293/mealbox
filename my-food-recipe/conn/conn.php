@@ -1,16 +1,15 @@
-<?php 
+<?php
+// php/config.php
+session_start();
 
-$servername = 'localhost';
-$username = 'root';
-$password = 'password';
-$db = 'mealbox3';
+define('DB_HOST', 'localhost');
+define('DB_USER', 'root');
+define('DB_PASS', '');
+define('DB_NAME', 'mealbox3');
 
-try {
-    $conn =  new PDO("mysql:host=$servername;dbname=$db", $username, $password);
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    echo '';
-} catch (PDOException $e) {
-    echo 'Failed' . $e;
+$db = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+
+if ($db->connect_error) {
+    die("Connection failed: " . $db->connect_error);
 }
-
 ?>

@@ -21,282 +21,238 @@
  <style>
  .navbar {
   overflow: hidden;
-  height: 70px;
+  height: auto;
+  padding: 15px;
   background-color: #808000;
-  font-family: Arial;
-  text-align: center; 
-}
-
- .search_icon{
-float:left;
-margin-top:55px;
-margin-right:50px;
-margin-bottom: 10px;
-}
-.search_box{
-border: 1px solid;
-padding: 8px;
-width: 800px;
-font-size: 16px;
-margin-right: 6px;
-margin-left: 297px;
-border-color: #DC7633;
-border-radius: 10px;
-height: 45px;
-}
-.search{
-background-color:forestgreen;
-padding:8px;
-width:80px;
-border:none;
-border-radius: 10px;
-height: 45px;
-font-size:17px;
-color:white;
-
-}
-
-.section{
-  
-
-margin-top: 140px;
- } 
-.social_icons{ 
-  margin-right: 15px;
-  font-size: 24px;
-  color: black;
-}
-.socialmedia{
- text-align: center;
- padding-top: 30px; 
- 
-}
-.timer p{
-  font-size: 18px;
   text-align: center;
-  color: black;
-}   
-
-p{
-  margin-bottom: 0;
-  color: forestgreen;
-}  
-
-.section2{ 
- background-color:#DAF7A6; 
- height: 100%;
- width: 100%;
 }
 
-.column1 {
-  float: left;
-  width: 25%;
-  
-  
+.search_icon {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 80%;
 }
-.avatar{
-  overflow: hidden;
-  border-radius: 50%;
-  transform: translatey(0px);
-  animation: float 1.5s ease-in-out infinite;
-  
-}
-@keyframes float {
-  0% {
-    
-    transform: translatey(0px);
-  }
-  50% {
-    
-    transform: translatey(-20px);
-  }
-  100% {
-    
-    transform: translatey(0px);
-  }
-}
-.column2 {
-  margin-top: 100px;
-  
-  float: right;
-  width: 25%;
 
+.search_box {
+  width: 100%;
+  margin: 0;
+  border: 1px solid #DC7633;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 16px;
 }
-.buyer_icon{
+
+.search {
+  background-color: forestgreen;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
   margin-left: 10px;
 }
-.seller_icon{
-  margin-right: 10px;
-}
-.buyer_icon:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.seller_icon:after {
-  content: "";
-  display: table;
-  clear: both;
+
+/* === فوڈ آئٹمز گرڈ === */
+.section4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
 }
 
-.section3{
-  margin-top: 40px;
-  padding-bottom: 40px;
-} 
-
-.get_started{
-  
- margin-top: 30px;
-margin-bottom: 30px;
-
-text-align: center;
+.upper {
+  width: 100%;
+  margin: 0;
 }
 
-button[type="button"]{
-   background-color:forestgreen;
-padding:8px;
-width:110px;
-height: 40px;
-border:none;
-border-radius: 10px;
-font-size:17px;
-color:white;
-cursor: pointer;
-
-}
-
-.tab{
- /* height: 30px;
-  border-radius: 5px;
-  border: 1px solid grey;
-  width: 100px;
-  background-color: #04AA6D;
-  color: white;   */
-  text-decoration: none;
-  color: forestgreen;
-  text-shadow: 2px 2px 5px grey;
-}
-
-.intro{
-  margin-top: 60px;
-  margin-right: 50px;
-  margin-left: 50px;
-}
-button[type="submit"]{
-   background-color:#808000;
-padding:8px;
-width:190px;
-height: 40px;
-border:none;
-border-radius: 10px;
-font-size:17px;
-color:white;
-cursor: pointer;
-
-}
-h3{
-  color: black;
-  margin-top: 10px;
-  text-shadow: 2px 2px 5px #808000;
-  font-size: 19px;
-  text-align: center;
-  margin-bottom: 20px;
-  font-weight: bold;
-  padding: 0px;
-  
-}
-h2{  
-  padding: 0px;
-  font-size: 18px;
-  font-weight: bold;
-  margin-top: 20px;
-}
-h1{
-  margin-top: 70px;
-  margin-left: 30px;
-  font-size: 32px;
-  text-shadow: 2px 2px 5px #808000;
-  text-align: left;
-}
-h4{
-  margin-top: 70px;
-  margin-left: 30px;
-  font-size: 32px;
-  text-shadow: 2px 2px 5px #808000;
-  text-align: center;
-  color: black;
-}
- 
-.section4:after{
-  
-  content: "";
-  display: table;
-  clear: both; 
-  
-}
-.upper{
-  float:  left;
-  width: 20%;
-margin-bottom: 50px;
-
-}
-  
 .card {
-  height: auto;
-  width: 190px;
-  margin-top: 90px;
-  margin-right: 20px;
-  margin-bottom: 50px;
-  margin-left: 30px;
-  text-align: center;
-  font-family: arial;
-  transition: transform .2s;
+  width: 100%;
+  margin: 1rem 0;
+  padding: 15px;
   background-color: #DAF7A6;
-  border: 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.card img{
-  border-radius: 30%;
-  width:90%;
+.product img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
 }
 
-
-
-
-.price {
-  color: black;
-  font-size: 16px;
-  margin-top: 5px;
-
+/* === بائیر/سیلر سیکشن === */
+.buyer_icon, .seller_icon {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 2rem;
 }
 
-.card .product{
-
-  height: 290px;
+.column1, .column2 {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  text-align: center;
 }
 
-
-.card .product:hover{
-  transform: scale(1.1);
+.avatar img {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
 }
 
+/* === میڈیا کوئیریز === */
+@media (max-width: 1200px) {
+  .navbar h3 {
+    font-size: 1.5rem;
+    margin-left: 0;
+  }
 
-.card button:hover {
-  opacity: 0.7;
+  .logo img {
+    width: 180px;
+  }
 }
 
-.card:hover{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 255, 0.3);
+@media (max-width: 768px) {
+  .mySlides img {
+    height: 300px;
+  }
 
-}
-.product-quantity {
-    padding: 5px 20px;
-    border-radius: 3px;
-    border: #808000 1px solid;
-    background-color: #DAF7A6 ;
+  .search_icon {
+    flex-direction: column;
+  }
+
+  .search {
     width: 100%;
-    text-align: center;
+    margin: 10px 0 0 0;
+  }
+
+  .intro {
+    margin: 30px 15px;
+  }
 }
+
+@media (max-width: 576px) {
+  h1, h4 {
+    font-size: 1.5rem;
+    margin-left: 15px;
+    text-align: center;
+  }
+
+  .product img {
+    height: 150px;
+  }
+
+  .card {
+    margin: 1rem 0;
+  }
+
+  .section4 {
+    padding: 1rem;
+    gap: 1rem;
+  }
+}
+
+/* === سپیشل افیکٹس === */
+.product-quantity {
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.product-quantity::-webkit-scrollbar {
+  width: 5px;
+}
+
+.product-quantity::-webkit-scrollbar-thumb {
+  background: #808000;
+  border-radius: 5px;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}
+.section3 {
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.buyer_icon, .seller_icon {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.column1, .column2 {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  text-align: center;
+}
+
+.intro {
+  margin: 2rem auto;
+  padding: 0 1rem;
+  max-width: 1200px;
+}
+
+/* Cards Grid System */
+.section4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.upper {
+  width: 100%;
+  margin: 0;
+}
+
+.card {
+  width: 100%;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+.product img {
+  max-width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .card {
+    margin: 1rem auto;
+  }
+
+  .column1, .column2 {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .intro {
+    margin: 1rem;
+    padding: 0 0.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .product img {
+    height: 150px;
+  }
+
+  .section4 {
+    padding: 1rem;
+    gap: 1rem;
+  }
 .column1 a, .column2 a{
   text-decoration: none;
 }
@@ -310,7 +266,8 @@ margin-bottom: 50px;
   width: 100%;
   background-color: #808000;
   margin-bottom: 0;
-}
+}}
+
 </style>   
 </head>
 <body>
@@ -346,19 +303,19 @@ margin-bottom: 50px;
 
 <div class="mySlides fade">
   
-  <img src="./images/slideshow1.PNG" alt="Picture" width="100%" height="400px">
+  <img src="./images/slideshow1.png" alt="Picture" width="100%" height="400px">
   
 </div>
 
 <div class="mySlides fade">
   
-  <img src="./images/slideshow4.PNG" alt="Picture" width="100%" height="400px">
+  <img src="./images/slideshow4.png" alt="Picture" width="100%" height="400px">
   
 </div>
 
 <div class="mySlides fade">
   
-  <img src="./images/slidehow5.PNG" alt="Picture" width="100%" height="400px">
+  <img src="./images/slidehow5.png" alt="Picture" width="100%" height="400px">
   
 </div>
 
@@ -399,7 +356,7 @@ function showSlides() {
 
 <div class="section4">
  <?php
-      $query="SELECT * FROM food_items WHERE id IN(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100);";
+      $query="SELECT * FROM food_items WHERE id IN(1,2,3,4,5,6,7,8,9,10);";
      
      $sth = mysqli_query($db, $query);
     if (mysqli_num_rows($sth) > 0) { 
@@ -436,13 +393,13 @@ function showSlides() {
 
 <div class="section3">
 <div class="buyer_icon">
-<div class="column1"><div class="avatar"> <img src="./images/48.PNG" alt="Picture" width="320px" height="300px"></div></div>
+<div class="column1"><div class="avatar"> <img src="./images/48.png" alt="Picture" width="320px" height="300px"></div></div>
  <div class="column1">
   <h3><b>Admin</b></h3>
   <b><p>Where are the cooks? Many of us can cook many type of local, foreign and regional food. Mealbox is trying to get people from all over the country to taste your hand-made food.This Mealbox can be another platform to start your own career.This is a platform that allows you to easily sell your best hand-made food. In this way, the buyers will be satisfied by eating your hand-made food and also can be a way for you to earn extra income.</p></b></div>
 </div>
 <div class="seller_icon">
-  <div class="column2"><div class="avatar"><img src="./images/49.PNG" alt="Picture" width="320px" height="300px"></div></div>
+  <div class="column2"><div class="avatar"><img src="./images/49.png" alt="Picture" width="320px" height="300px"></div></div>
 <div class="column2">
 <h3><b>Buyer</b></h3>
   <b><p>Where are the food-loving people? The Mealbox is searching for you.If you favor to get a handful of fresh local, foreign, regional meals in a time to calm your stomach, visit this mealbox.For those of us who are out of the house at work, we all miss our mother's hand-made food. You can relate to Mealbox to get back the taste of handmade food.
@@ -479,7 +436,49 @@ Sit lower back and relax – let Mealbox take the pressure off your shoulders.
     </div> 
  </div>
 
+<script>
+// Some random colors
+const colors = ["#3CC157", "#2AA7FF", "#1B1B1B", "#FCBC0F", "#F85F36"];
 
+const numBalls = 50;
+const balls = [];
+
+for (let i = 0; i < numBalls; i++) {
+  let ball = document.createElement("div");
+  ball.classList.add("ball");
+  ball.style.background = colors[Math.floor(Math.random() * colors.length)];
+  ball.style.left = `${Math.floor(Math.random() * 100)}vw`;
+  ball.style.top = `${Math.floor(Math.random() * 100)}vh`;
+  ball.style.transform = `scale(${Math.random()})`;
+  ball.style.width = `${Math.random()}em`;
+  ball.style.height = ball.style.width;
+  
+  balls.push(ball);
+  document.body.append(ball);
+}
+
+// Keyframes
+balls.forEach((el, i, ra) => {
+  let to = {
+    x: Math.random() * (i % 2 === 0 ? -11 : 11),
+    y: Math.random() * 12
+  };
+
+  let anim = el.animate(
+    [
+      { transform: "translate(0, 0)" },
+      { transform: `translate(${to.x}rem, ${to.y}rem)` }
+    ],
+    {
+      duration: (Math.random() + 1) * 2000, // random duration
+      direction: "alternate",
+      fill: "both",
+      iterations: Infinity,
+      easing: "ease-in-out"
+    }
+  );
+});
+</script>
 
 <script>
 setInterval(myTimer, 1000);

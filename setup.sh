@@ -31,14 +31,15 @@ FLUSH PRIVILEGES;
 MYSQL_SCRIPT
 
 echo "Downloading and applying database schema..."
-SCHEMA_URL="https://raw.githubusercontent.com/Israruddin293/BuyandSell/main/mealbox3.sql"
+# SCHEMA_URL="https://raw.githubusercontent.com/Israruddin293/BuyandSell/main/mealbox3.sql"
+SCHEMA_URL="https://raw.githubusercontent.com/Israruddin293/mealbox/main/mealbox3.sql";
 wget $SCHEMA_URL -O /tmp/mealbox3.sql
 sudo mysql -u $DB_USER -p"$DB_PASS" $DB_NAME < /tmp/mealbox3.sql || echo "Schema import failed!"
 
 echo "Deploying PHP application..."
 APP_DIR="/var/www/html"
 sudo rm -rf $APP_DIR/*
-sudo git clone https://github.com/Israruddin293/BuyandSell.git $APP_DIR/
+sudo git clone https://github.com/Israruddin293/mealbox $APP_DIR/
 
 # Set proper permissions
 sudo chown -R apache:apache $APP_DIR
